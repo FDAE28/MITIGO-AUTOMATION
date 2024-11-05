@@ -1,0 +1,5 @@
+{"name":"1730809587","hostname":"DESKTOP-8V10OGQ","pid":8288,"level":20,"msg":"Sync server version: 1.2.4 2020-09-14 17:52:19 -0500 0aa4a9d288d4ecef4183f4fafe59fb95da7ae967","time":"2024-11-05T12:26:27.345Z","v":0}
+{"name":"1730809587","hostname":"DESKTOP-8V10OGQ","pid":8288,"level":30,"msg":"Acquiring actors for session 1730809587: ","time":"2024-11-05T12:26:27.350Z","v":0}
+{"name":"1730809587","hostname":"DESKTOP-8V10OGQ","pid":8288,"level":30,"msg":"Session 1730809587 with label \"actualizando chromedriver 2\" started at 2024-11-05 12:26:27 UTC","time":"2024-11-05T12:26:27.353Z","v":0}
+{"name":"1730809587","hostname":"DESKTOP-8V10OGQ","pid":8288,"level":30,"actorType":"ACTOR1","actorId":"26883","time":"2024-11-05T12:26:29.8121206Z","msg":"Actor 26883 of type ACTOR1 was acquired by test session 1730809587","v":0}
+{"name":"1730809587","hostname":"DESKTOP-8V10OGQ","pid":8288,"level":20,"actorType":"ACTOR1","actorId":"26883","time":"2024-11-05T12:26:29.849123Z","msg":"DEBUG: Test actor JAR versions:","v":0}

@@ -1,0 +1,39 @@
+description: Logueo por mail and password
+dataSet: |
+  (function() {
+    $include("scripts/csvTools.js"); // Incluye el script
+
+    var urlData = generateUrl("PROD"); // Obtenemos la URL para el entorno de producción
+    var loginData = $csvToJson("data/py-data/login-mail/login-mail.csv");
+
+    return {
+      url: urlData,
+      data: loginData
+    };
+  })();
+
+actors:
+  - actor: ACTOR1
+    segments:
+      - segment: 1
+        actions:
+          - description: Navegar a oneApp
+            action: org.getopentest.selenium.NavigateTo
+            args:
+              url: $dataRecord.url
+
+          - description: Ingresar
+            action: org.getopentest.selenium.Click
+            args:
+              locator: { css: ".at-button-hight-emphasis" }
+
+          - description: Aceptar terminos y condiciones
+            action: org.getopentest.selenium.Click
+            args:
+              locator: { css: "#AceptarBtn" }
+
+          - description: Ingresar mail
+            action: org.getopentest.selenium.SendKeys
+            args:
+              locator: { css: "#email" }
+              text: $dataRecord.data[0].mail
