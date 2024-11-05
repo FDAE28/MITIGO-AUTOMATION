@@ -1,0 +1,5 @@
+{"name":"1730827721","hostname":"DESKTOP-8V10OGQ","pid":8444,"level":20,"msg":"Sync server version: 1.2.4 2020-09-14 17:52:19 -0500 0aa4a9d288d4ecef4183f4fafe59fb95da7ae967","time":"2024-11-05T17:28:41.348Z","v":0}
+{"name":"1730827721","hostname":"DESKTOP-8V10OGQ","pid":8444,"level":30,"msg":"Acquiring actors for session 1730827721: ACTOR1","time":"2024-11-05T17:28:41.355Z","v":0}
+{"name":"1730827721","hostname":"DESKTOP-8V10OGQ","pid":8444,"level":30,"msg":"Session 1730827721 with label \"sssdsd 2\" started at 2024-11-05 17:28:41 UTC","time":"2024-11-05T17:28:41.365Z","v":0}
+{"name":"1730827721","hostname":"DESKTOP-8V10OGQ","pid":8444,"level":30,"actorType":"ACTOR1","actorId":"47769","time":"2024-11-05T17:28:42.1362851Z","msg":"Actor 47769 of type ACTOR1 was acquired by test session 1730827721","v":0}
+{"name":"1730827721","hostname":"DESKTOP-8V10OGQ","pid":8444,"level":20,"actorType":"ACTOR1","actorId":"47769","time":"2024-11-05T17:28:42.1522877Z","msg":"DEBUG: Test actor JAR versions:","v":0}
