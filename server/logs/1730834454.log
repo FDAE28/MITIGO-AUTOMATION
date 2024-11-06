@@ -17,3 +17,5 @@
 {"name":"1730834454","hostname":"DESKTOP-8V10OGQ","pid":32624,"level":10,"actorType":"ACTOR1","actorId":"29586","time":"2024-11-05T19:20:59.1919415Z","msg":"TRACE: Firing TEST_COMPLETED event...","v":0}
 {"name":"1730834454","hostname":"DESKTOP-8V10OGQ","pid":32624,"level":10,"actorType":"ACTOR1","actorId":"29586","time":"2024-11-05T19:20:59.1933371Z","msg":"TRACE: Firing SESSION_COMPLETED event...","v":0}
 {"name":"1730834454","hostname":"DESKTOP-8V10OGQ","pid":32624,"level":30,"actorType":"ACTOR1","actorId":"29586","time":"2024-11-05T19:20:59.1943876Z","msg":"Actor 29586 of type ACTOR1 with no tags is waiting to be acquired by a test session...","v":0}
+{"name":"1730834454","hostname":"DESKTOP-8V10OGQ","pid":32624,"level":10,"actorType":"ACTOR1","actorId":"29586","time":"2024-11-05T19:42:12.9729287Z","msg":"TRACE: Initializing test session information in the \"announce\" method...","v":0}
+{"name":"1730834454","hostname":"DESKTOP-8V10OGQ","pid":32624,"level":10,"actorType":"ACTOR1","actorId":"29586","time":"2024-11-05T19:42:12.97593Z","msg":"TRACE: Session ID in sync server response was 1730835732; actor session ID was null","v":0}

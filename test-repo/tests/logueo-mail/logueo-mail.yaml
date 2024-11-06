@@ -1,16 +1,4 @@
 description: Logueo por mail and password
-dataSet: |
-  (function() {
-    $include("scripts/csvTools.js"); // Incluye el script
-
-    var urlData = generateUrl("PROD"); // Obtenemos la URL para el entorno de producción
-    var loginData = $csvToJson("data/py-data/login-mail/login-mail.csv");
-
-    return {
-      url: urlData,
-      data: loginData
-    };
-  })();
 
 actors:
   - actor: ACTOR1
@@ -20,7 +8,7 @@ actors:
           - description: Navegar a oneApp
             action: org.getopentest.selenium.NavigateTo
             args:
-              url: $dataRecord.url
+              url: "https://mi.tigo.com.py/ingresar"
 
           - description: Ingresar
             action: org.getopentest.selenium.Click
@@ -36,4 +24,4 @@ actors:
             action: org.getopentest.selenium.SendKeys
             args:
               locator: { css: "#email" }
-              text: $dataRecord.data[0].mail
+              text: "fernandoaes20@gmail.com"
