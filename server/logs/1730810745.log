@@ -1,5 +1,0 @@
-{"name":"1730810745","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":20,"msg":"Sync server version: 1.2.4 2020-09-14 17:52:19 -0500 0aa4a9d288d4ecef4183f4fafe59fb95da7ae967","time":"2024-11-05T12:45:45.387Z","v":0}
-{"name":"1730810745","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":30,"msg":"Acquiring actors for session 1730810745: ","time":"2024-11-05T12:45:45.399Z","v":0}
-{"name":"1730810745","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":30,"msg":"Session 1730810745 with label \"null\" started at 2024-11-05 12:45:45 UTC","time":"2024-11-05T12:45:45.411Z","v":0}
-{"name":"1730810745","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":30,"actorType":"ACTOR1","actorId":"24921","time":"2024-11-05T12:45:46.77588Z","msg":"Actor 24921 of type ACTOR1 was acquired by test session 1730810745","v":0}
-{"name":"1730810745","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":20,"actorType":"ACTOR1","actorId":"24921","time":"2024-11-05T12:45:46.7868896Z","msg":"DEBUG: Test actor JAR versions:","v":0}

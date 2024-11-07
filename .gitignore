@@ -1,1 +1,4 @@
-dockerfile
+server/db/actors
+data/login-mail/login-mail.csv
+actor1/actor.pid
+server/logs

@@ -1,0 +1,28 @@
+description: Test para iniciar sesión con mail y password usando la macro
+
+actors:
+  - actor: ACTOR1
+    segments:
+      - segment: 1
+        actions:
+          - description: "Llamar a la macro de login por mail y password"
+          - macro: Login-mail-password.logueo-mail 
+
+          - description: Seleccionar linea password
+            action: org.getopentest.selenium.Click
+            args:
+              locator: { xpath: "//h1[contains(text(), '981320024')]" }
+
+
+          - description: Desplegar 
+            action: org.getopentest.selenium.Click
+            args:
+              locator: { xpath: "//ion-text[@id='hasPaymentValue0']" }
+
+
+
+
+
+
+
+
