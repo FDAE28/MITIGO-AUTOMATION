@@ -1,4 +1,0 @@
-{"name":"1730827507","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":20,"msg":"Sync server version: 1.2.4 2020-09-14 17:52:19 -0500 0aa4a9d288d4ecef4183f4fafe59fb95da7ae967","time":"2024-11-05T17:25:06.504Z","v":0}
-{"name":"1730827507","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":30,"msg":"Acquiring actors for session 1730827507: ACTOR1","time":"2024-11-05T17:25:06.508Z","v":0}
-{"name":"1730827507","hostname":"DESKTOP-8V10OGQ","pid":26640,"level":30,"msg":"Session 1730827507 with label \"update-log\" started at 2024-11-05 17:25:06 UTC","time":"2024-11-05T17:25:06.512Z","v":0}
-{"name":"1730827507","hostname":"DESKTOP-8V10OGQ","pid":32624,"level":30,"msg":"Cancelling session 1730827507 because there was no activity for 3600 seconds","time":"2024-11-05T18:25:12.109Z","v":0}

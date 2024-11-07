@@ -1,0 +1,41 @@
+description: Logueo por mail and password
+
+actions:
+  - description: Navegar a oneApp
+    action: org.getopentest.selenium.NavigateTo
+    args:
+      url: "https://oneapp-uat-py.tigocloud.net"
+
+  - description: Ingresar
+    action: org.getopentest.selenium.Click
+    args:
+      locator: { css: ".at-button-hight-emphasis" }
+
+  - description: Aceptar términos y condiciones
+    action: org.getopentest.selenium.Click
+    args:
+      locator: { css: "#AceptarBtn" }
+
+  - description: Ingresar mail
+    action: org.getopentest.selenium.SendKeys
+    args:
+      locator: { css: ".materialInput_input__Zhf5S" }
+      text: "fernandoaes20@gmail.com"
+
+  - description: Click en botón de contraseña
+    action: org.getopentest.selenium.Click
+    args:
+      locator: { css: ".icon-ma-button.icon-ma-button-enable" }
+
+  - description: Ingresar contraseña
+    action: org.getopentest.selenium.SendKeys
+    args:
+      locator: { css: "input[type='password']" }
+      text: "NuncaOlvidar30!"
+
+  - description: Click ingresar
+    action: org.getopentest.selenium.Click
+    args:
+      locator: 
+       xpath: //*[@id="root"]/div/div/div/div[2]/div[6]/div[1]/button/span 
+       
